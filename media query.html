@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .one{
+            width: 1310px;
+            height: 657px;
+            background-image: url(n6.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        nav{
+            width: 800px;
+            height: auto;
+            position: relative;
+            top: 20px;
+            left: 40px;
+            
+        }
+        nav a{
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+            font-family: Arial,sans-serif;
+            margin-left: 40px;
+            font-weight: bold;
+        }
+        .two{
+            width: 1100px;
+            height: 300px;
+            position: relative;
+            top: 150px;
+            left:100px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .twoo{
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            border:2px solid white;
+            background-color: chartreuse;
+        }
+        @media only screen and  (max-width:600px) {
+            .one{
+                width: 596px;
+                height:545px;
+                background-image: url(n6.jpg);
+                border: 2px solid black;
+                background-size: cover;
+                background-position: center;
+            }
+            .two{
+                width: 400px;
+                height: 300px;
+                position: relative;
+                top: 150px;
+                left:100px;
+            }
+            .twoo{
+                width: 100px;
+                height: 200px;
+                border-radius: 20px;
+                border:2px solid white;
+                background-color: chartreuse;
+            }
+            nav a{
+                font-size: 15px;
+                margin-left: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">PROJECTS</a>
+            <a href="#">WORKS</a>
+        </nav>
+
+        <div class="two">
+            <div class="twoo">
+
+            </div>
+            <div class="twoo">
+
+            </div>
+            <div class="twoo">
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
